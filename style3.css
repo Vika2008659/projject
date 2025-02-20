@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 500px;
+}
+h1 {
+   
+    text-align: center;
+}
+.item{
+    width: 1000px;
+    height: 300px;
+    margin-left: 50px;
+}
+.cont, .container{
+    display: flex;
+    flex-direction: row;
+    color: black;
+    font-weight: 700;
+    font-family: "Arial";
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+img {
+    height: 420px;
+    width: 500px;
+    margin-left: 50px;
+    border-radius: 10px;
+}
+.rav {
+    margin-left: 200px;
+}
+.box1 {
+    background: rgb(92, 214, 153);
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+h3{
+    color: rgb(92, 214, 153);
+}
+.box2 {
+    color: black;
+    font-weight: 700;
+    font-family: "Arial";
+    text-align: center;
+}
+.box3, .box4, .box6, .box8 {
+    color: black;
+    font-weight: 700;
+    font-family: "Arial";
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+h2 {
+    color: rgb(216, 143, 79); /* Цвет заголовков */
+}
+
+p {
+    line-height: 1.6; /* Увеличивает читаемость текста */
+}
