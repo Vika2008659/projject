@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    font-family: "Arial", sans-serif;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/001/234/255/original/blue-white-low-poly-triangle-shapes-background-vector.jpg);
+    background-size: cover;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.item3, .item4{
+    color: black;
+    font-weight: 500;
+    font-size: 20px;
+    margin-left: 10px;
+    text-align: start;
+}
+.item1{
+    color: black;
+    font-weight: 500;
+    font-size: 20px;
+    max-width: 700px;
+    margin-left: 10px;
+    text-align: start;
+    margin-left: 850px;
+    margin-top: 90px;
+}
+.item{
+    background: #7ab2d4;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 20px;
+    margin-left: 10px;
+    text-align: center;
+}
+.item2 {
+    color: black;
+    font-weight: 500;
+    font-size: 17px;
+    margin-top: 200px;
+    margin-left: 10px;
+    border-radius: 8px;
+    padding: 20px;
+    margin-left: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.tekst_sverhu_kartinki img  {
+    position: relative;
+    width: 800px;
+    height: 400px;
+    border-radius: 20px;
+    margin-top: 0px;
+    }
+.tekst_sverhu_kartinki {
+    position: absolute;
+    color: white;
+    text-transform: uppercase;
+    width: 600px;
+    top: 200px;
+    height: 400px;
+    padding: 10px;
+    font: bold 24px/34px Helvetica, Sans-Serif;
+    padding: 10px;
+    font: bold 24px/34px Helvetica, Sans-Serif;
+    text-align: start; 
+}
+.item3, .item4 {
+    margin-top: 10px; 
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 17px;
+    padding: 20px;
+    margin-left: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.button {
+    background-color: #007BFF; 
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: background-color 0.3s ease; 
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
