@@ -1,0 +1,88 @@
+body {
+    font-family: "Arial", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.content {
+    display: flex;
+    flex-direction: row;
+    background: #ffffff;
+    border-radius: 8px;
+    padding: 20px;
+    margin-left: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+img {
+    width: 600px;
+    height: 400px;
+    border-radius: 15px;
+}
+.item1, .box3 {
+    margin-left: 10px;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: "Arial";
+    background: #ffffff;
+    border-radius: 8px;
+    padding: 20px;
+    margin-left: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.box {
+    background: #1844d5;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h1 {
+    font-size: 2.5em; /* Увеличенный размер шрифта */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2); /* Тень для заголовка */
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+}
+
+.box2, .box1 {
+    padding: 15px;
+    border-radius: 10px;
+    transition: transform 0.2s, box-shadow 0.2s; /* Плавный переход */
+}
+
+
+
+h2{
+    color: #5592e1;
+}
+h3{
+    color: #4f26e3;
+}
+
+
+
+.box2:hover, .box3:hover {
+    transform: translateY(-5px); /* Подъем блока при наведении */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Тень при наведении */
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 14px;
+    color: #555; /* Темно-серый цвет для текста подвала */
+}
+
+footer p {
+    margin: 5px 0; /* Отступы для текста в подвале */
+}
